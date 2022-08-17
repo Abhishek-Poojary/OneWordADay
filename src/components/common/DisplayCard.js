@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from "react";
-import Card from 'react-bootstrap/Card';
 
-const DisplayCard = (word) => {
+const DisplayCard = (props) => {
+    console.log(props.word)
     return (
-        <Card border="info" style={{ width: '18rem' }}>
-            <Card.Header>Header</Card.Header>
-            <Card.Body>
-                <Card.Title>Info Card Title</Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                </Card.Text>
-            </Card.Body>
-        </Card>
+        <div className="card">
+        <h2>PartOfSpeech:{props.word.meanings[0].partOfSpeech}</h2>
+        <div className="line" ></div>
+        <p>Meanings</p>
+        <ol>
+        {props.word.meanings[0].definitions.map((data,index)=>{
+            if(index<9)
+            return <li key={index}>{data.definition}</li>
+            else
+            return null;
+        })}
+        </ol>
+    </div>
 
     );
 }

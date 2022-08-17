@@ -9,11 +9,10 @@ const Home = () => {
 
 
             <div className='custom-container-home'>
-                
-                    <p className='custom-text-home'>Learn One </p>
-                    <p className='custom-text-home'>Word A Day.</p>
-                    <button className='btn custom-button-big' >Learn</button>
-             
+
+                <p className='custom-text-home'>Learn One </p>
+                <p className='custom-text-home'>Word A Day.</p>
+                <button className='btn custom-button-big' >Learn</button>
 
             </div>
             {searchWord && <CardContainer word={searchWord} />}

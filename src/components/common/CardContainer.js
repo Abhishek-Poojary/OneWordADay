@@ -14,7 +14,7 @@ const CardContainer = (props) => {
     return (
         <Fragment>
             
-            <div className="custom-background-card">
+            <div className="custom-display-container">
             
             {list && list.map((word, index) => {
                 return <DisplayCard word={word} key={index}/>
