@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import useFetch from "../../services/useFetch";
+import useFetch from "../../customHooks/useFetch";
 import DisplayCard from "./DisplayCard";
 
 const CardContainer = (props) => {
@@ -13,7 +13,7 @@ const CardContainer = (props) => {
 
     return (
         <Fragment>
-            
+            {/* {data.length!==0 && list  && (<div className='custom-card-text-main'><span>Word is  {list[0].word}</span></div>)} */}
             <div className="custom-display-container">
             
             {list && list.map((word, index) => {

@@ -26,7 +26,7 @@ const NavigationFooter = () => {
                 </div>
             </div>
 
-            <div className="text-center py-3"><p className="customBrand">Sahara</p>©2022 Copyright</div>
+            <div className="text-center py-3">©2022 Copyright</div>
 
         </footer>
     </Fragment>);

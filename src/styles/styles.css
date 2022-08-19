@@ -16,11 +16,12 @@ footer {
 }
 
 .custom-background {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: rgb(255,133,242);
+    background: linear-gradient(344deg, rgba(255,133,242,1) 0%, rgba(255,5,253,1) 47%, rgba(89,105,247,0.9780287114845938) 100%);
 }
 
 .custom-container-home {
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -46,7 +47,7 @@ footer {
 .custom-button-big{
     justify-content: right;
     font-family: 'Orbitron';
-    background-color: orchid;
+    background-color: #B8F1B0;
     width: 30%;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -74,10 +75,10 @@ footer {
 
 .custom-display-container {
     height: fit-content;
-    background-color: lightgray;
+    background-color: #E3FCBF;
     width: 100vw;
     display: flex;
-    padding: 50px 0px 50px 0px;
+    padding-bottom: 50px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -85,7 +86,7 @@ footer {
   .custom-display-container .card {
     width: 400px;
     height: 300px;
-    background-color: orchid;
+    background-color: #F65A83;
     color: #fff;
     box-sizing: border-box;
     padding: 20px;
@@ -96,6 +97,11 @@ footer {
   .custom-display-container .card h2 {
     margin: 0;
     font-size: 20px;
+    font-weight: bold;
+    font-family: "Noto Serif Hong Kong";
+  }
+  .custom-display-container .card h2 span{
+    color: #FFE898;
   }
   .custom-display-container .card .line {
     width: 90%;
@@ -113,5 +119,34 @@ footer {
     max-height: 130px;
     overflow: auto;
   
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F65A83; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FFE898; 
+  }
+
+  .custom-card-text-main{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #E3FCBF;
+    color: #14C38E;
+    font-family: 'Satisfy';
+    font-size: 35px;
   }
   

@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
         google: {
-            families: ["Libre Baskerville", "Michroma", "Merienda", "Rajdhani", "Orbitron", "Satisfy", "Cinzel", "Prata"],
+            families: ["Noto Serif Hong Kong", "Michroma", "Merienda", "Rajdhani", "Orbitron", "Satisfy", "Cinzel", "Prata"],
         },
     });
 }, [])
@@ -24,6 +24,7 @@ function App() {
         <NavigationHeader />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='*' element={<Home />} />
         </Routes>
         <NavigationFooter />
       </BackGround>
