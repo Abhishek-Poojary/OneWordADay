@@ -18,5 +18,5 @@ You may also see any lint errors in the console.
 ## References 
 <ul>
   <li>https://www.npmjs.com/package/babel-plugin-preval</li>
-  <li>[ https://www.npmjs.com/package/babel-plugin-preval ] (https://dictionaryapi.dev/)</li>
+  <li>https://dictionaryapi.dev/</li>
  </ul>
