@@ -1,6 +1,7 @@
 # One Word a Day
 
-### OneWordADay is a React Js based application which allows users to learn new words.We are using freeDictionaryAPI to retrieve data(definition and more) for each word.
+### OneWordADay is a React Js based application which allows users to learn new words.
+### We are using freeDictionaryAPI to retrieve data(definition and more) for each word.
 
 
 ## Available Scripts
