@@ -15,16 +15,13 @@ const CardContainer = (props) => {
             {
                 list && (
                     <div className="custom-display-container">
-
                         {list && list.map((word, index) => {
                             return <DisplayCard word={word} key={index} />
                         })
                         }
-
                     </div>
                 )
             }
-
         </Fragment>
     )
 }

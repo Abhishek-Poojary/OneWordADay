@@ -12,11 +12,11 @@ import WebFont from "webfontloader";
 function App() {
   useEffect(() => {
     WebFont.load({
-        google: {
-            families: ["Noto Serif Hong Kong", "Michroma", "Merienda", "Rajdhani", "Orbitron", "Satisfy", "Cinzel", "Prata"],
-        },
+      google: {
+        families: ["Noto Serif Hong Kong", "Orbitron", "Satisfy"],
+      },
     });
-}, [])
+  }, [])
 
   return (
     <BrowserRouter>
