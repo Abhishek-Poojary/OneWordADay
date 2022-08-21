@@ -11,7 +11,7 @@ const NavigationFooter = () => {
                     <div className="col-md-6 mt-md-0 mt-3">
                         <h5>OneWordADay</h5>
                         <p>Learn one word a day to improve your vocabulary and speech</p>
-                        <p>just click Learn and we will generate a Word with definition for you to Learn. You can also search a word for its definition</p>
+                        <p>just click Learn and we will generate a Word with definition for you to Learn.</p>
                     </div>
 
 

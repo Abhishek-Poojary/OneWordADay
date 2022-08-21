@@ -10,11 +10,10 @@ const useFetch=(word)=>{
             .then((result)=>{
                     setData(result);
             })
-            .catch((err)=>{
-                setData("No results found")
+            .catch(err=>{
+                setData("No results found"+err)
             });
         }
-        
     },[word])
 
     return [data];
