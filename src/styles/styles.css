@@ -55,19 +55,20 @@ footer {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.custom-button-big:hover{
+
+.custom-button-big:hover {
   background-color: #B8F1B0;
   color: black;
   border: none;
 }
 
-.custom-button-big:focus{
+.custom-button-big:focus {
   background-color: #9eeb93;
   color: black;
   border: none;
 }
 
-.custom-button-big:active{
+.custom-button-big:active {
   background-color: #B8F1B0;
   color: black;
   border: none;
